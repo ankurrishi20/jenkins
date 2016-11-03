@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCases>
+    <TestCase name="googleSearchTest">
+        <Iteration value="1">
+            <RunMode>N</RunMode>
+            <Browser>Chrome</Browser>
+            <ExpectedTitle>Google</ExpectedTitle>
+        </Iteration>
+        <Iteration value="2">
+            <RunMode>N</RunMode>
+            <Browser>Chrome</Browser>
+            <ExpectedTitle>s</ExpectedTitle>
+        </Iteration>
+    </TestCase>
+    <TestCase name="googleSearchVerifyTextTest">
+        <Iteration value="1">
+            <RunMode>N</RunMode>
+            <Browser>Chrome</Browser>
+            <ExpectedTitle>Google</ExpectedTitle>
+            <SearchText>HCL</SearchText>
+        </Iteration>
+        <Iteration value="2">
+            <RunMode>N</RunMode>
+            <Browser>Chrome</Browser>
+            <ExpectedTitle>s</ExpectedTitle>
+            <SearchText>FIROZ</SearchText>
+        </Iteration>
+    </TestCase>
+    <TestCase name="googleSearchVerifyTextTestq">
+        <Iteration value="1">
+            <RunMode>N</RunMode>
+            <Browser>Chrome</Browser>
+            <ExpectedTitle>Google</ExpectedTitle>
+            <SearchText>Sharma</SearchText>
+        </Iteration>
+        <Iteration value="2">
+            <RunMode>N</RunMode>
+            <Browser>Chrome</Browser>
+            <ExpectedTitle>s</ExpectedTitle>
+            <SearchText>PRANAV</SearchText>
+        </Iteration>
+    </TestCase>
+    <TestCase name="googleSearchVerifyTextTestqw">
+        <Iteration value="1">
+            <RunMode>N</RunMode>
+            <Browser>Chrome</Browser>
+            <ExpectedTitle>Google</ExpectedTitle>
+        </Iteration>        
+    </TestCase>
+    <TestCase name="neustar_login">
+        <Iteration value="1">
+            <RunMode>N</RunMode>
+            <Browser>Chrome</Browser>
+            <Domain>Test</Domain>
+            <Username>Test</Username>
+            <Password>Test</Password>
+        </Iteration>
+    </TestCase>
+    <TestCase name="registration">
+        <Iteration value="1">
+            <RunMode>Y</RunMode>
+            <Browser>Chrome</Browser>
+            <uname>angular</uname>
+            <Password>password</Password>
+            <Username1>password</Username1>
+        </Iteration>
+    </TestCase>
+</TestCases>

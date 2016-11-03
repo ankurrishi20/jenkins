@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCases>
+    <TestCase name="googleSearchTest">
+        <Operation1>
+           <Keyword>OpenBrowser</Keyword>
+           <Object></Object>
+           <Data>Browser</Data>
+        </Operation1>
+        <Operation2>
+           <Keyword>navigate</Keyword>
+           <Object></Object>
+           <Data></Data>
+        </Operation2>
+        <Operation3>
+           <Keyword>verifyTitle</Keyword>
+           <Object></Object>
+           <Data>ExpectedTitle</Data>
+        </Operation3>
+        <Operation4>
+           <Keyword>CloseBrowser</Keyword>
+           <Object></Object>
+           <Data>Browser</Data>
+        </Operation4>
+    </TestCase>
+    <TestCase name="googleSearchVerifyTextTest">
+    </TestCase>
+    <TestCase name="googleSearchTextTestq">
+    </TestCase>
+    <TestCase name="googleSearchTextTestqw">
+    </TestCase>
+    <TestCase name="neustar_login">
+        <Operation1>
+           <Keyword>OpenBrowser</Keyword>
+           <Object></Object>
+           <Data>Browser</Data>
+        </Operation1>
+        <Operation2>
+           <Keyword>navigate</Keyword>
+           <Object></Object>
+           <Data></Data>
+        </Operation2>
+        <Operation3>
+           <Keyword>input</Keyword>
+           <Object>domain</Object>
+           <Data>Domain</Data>
+        </Operation3>
+        <Operation4>
+           <Keyword>input</Keyword>
+           <Object>username</Object>
+           <Data>Username</Data>
+        </Operation4>
+        <Operation5>
+           <Keyword>input</Keyword>
+           <Object>password</Object>
+           <Data>Password</Data>
+        </Operation5>
+        <Operation6>
+           <Keyword>submit</Keyword>
+           <Object>sign_in_button</Object>
+           <Data></Data>
+        </Operation6>
+        <Operation7>
+           <Keyword>CloseBrowser</Keyword>
+           <Object></Object>
+           <Data></Data>
+        </Operation7>
+    </TestCase>
+    <TestCase name="registration">
+        <Operation1>
+           <Keyword>OpenBrowser</Keyword>
+           <Object></Object>
+           <Data>Browser</Data>
+        </Operation1>
+        <Operation2>
+           <Keyword>navigate</Keyword>
+           <Object></Object>
+           <Data></Data>
+        </Operation2>
+        <Operation3>
+           <Keyword>input</Keyword>
+           <Object>uname_xpath</Object>
+           <Data>uname</Data>
+        </Operation3>
+        <Operation4>
+           <Keyword>input</Keyword>
+           <Object>pwd_xpath</Object>
+           <Data>Password</Data>
+        </Operation4>
+        <Operation5>
+           <Keyword>input</Keyword>
+           <Object>username1_xpath</Object>
+           <Data>Username1</Data>
+        </Operation5>
+        <Operation6>
+           <Keyword>click</Keyword>
+           <Object>login_btn_xpath</Object>
+           <Data></Data>
+        </Operation6>
+    </TestCase>    
+</TestCases>

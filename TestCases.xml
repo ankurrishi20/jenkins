@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCases>
+<TestCase name="googleSearchTest">
+    <RunMode>Y</RunMode>
+</TestCase>
+<TestCase name="googleSearchVerifyTextTest">
+    <RunMode>N</RunMode>
+</TestCase>
+<TestCase name="googleSearchVerifyTextTestq">
+    <RunMode>N</RunMode>
+</TestCase>
+<TestCase name="googleSearchVerifyTextTestqw">
+    <RunMode>N</RunMode>
+</TestCase>
+<TestCase name="neustar_login">
+    <RunMode>N</RunMode>
+</TestCase>
+<TestCase name="registration">
+    <RunMode>N</RunMode>
+</TestCase>
+</TestCases>
